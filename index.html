@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO - Helping Hands</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero-section {
+            background: linear-gradient(to right, #4fc3f7, #66bb6a);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .section-padding {
+            padding: 60px 20px;
+        }
+        .bg-light-blue {
+            background-color: #e0f7fa;
+        }
+        .btn-primary {
+            background-color: #4fc3f7;
+            border-color: #4fc3f7;
+        }
+        .btn-success {
+            background-color: #66bb6a;
+            border-color: #66bb6a;
+        }
+        footer {
+            background-color: #004d40;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 60px 10px;
+            }
+            .section-padding {
+                padding: 40px 10px;
+            }
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section h1 {
+                font-size: 1.8rem;
+            }
+            .hero-section p {
+                font-size: 1rem;
+            }
+            .btn {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light-blue">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Helping Hands</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary text-white" href="#donate">Donate</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1>Welcome to Helping Hands</h1>
+    <p>Empowering communities, one step at a time.</p>
+    <a href="#donate" class="btn btn-light">Support Our Cause</a>
+</div>
+
+<!-- About Us -->
+<section id="about" class="section-padding">
+    <div class="container text-center">
+        <h2>About Us</h2>
+        <p>Helping Hands is dedicated to supporting underprivileged communities through education, healthcare, and social welfare initiatives.</p>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="bg-light-blue section-padding">
+    <div class="container text-center">
+        <h2>Our Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h4>Education for All</h4>
+                <p>Providing quality education to children in rural areas.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Healthcare Program</h4>
+                <p>Offering free medical check-ups and health camps.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Women Empowerment</h4>
+                <p>Skills training programs for women's self-sufficiency.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Donate Section -->
+<section id="donate" class="section-padding">
+    <div class="container text-center">
+        <h2>Make a Difference</h2>
+        <p>Your contribution can change lives. Join us in making a positive impact!</p>
+        <a href="#" class="btn btn-success">Donate Now</a>
+    </div>
+</section>
+
+<!-- Contact Us -->
+<section id="contact" class="bg-light-blue section-padding">
+    <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>Email: contact@helpinghands.org | Phone: +91-1234567890</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center p-3">
+    <p>&copy; 2025 Helping Hands. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
